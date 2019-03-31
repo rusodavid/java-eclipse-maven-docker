@@ -2,17 +2,14 @@ FROM ubuntu:18.04
 
 LABEL maintainer "David Ruiz <rusodavid@gmail.com>"
 
-ENV ECLIPSE_VERSION eclipse-java-2018-12-R-linux-gtk-x86_64.tar.gz
-
-RUN apt-get update
-RUN apt-get -y install wget
-
 #install jdk 8
-RUN apt-get -y install openjdk-8-jdk \
+RUN apt-get update && \
+    apt-get -y install openjdk-8-jdk \
         libgtk-3-0 \
 	libgl1-mesa-dri \
         libgl1-mesa-glx \
 	libcanberra-gtk3-module \
+	wget \
         git \
 	vim \
 	zsh \
@@ -27,13 +24,23 @@ COPY maven.sh /etc/profile.d/maven.sh
 RUN chmod +x /etc/profile.d/maven.sh
 
 #install eclipse
-RUN wget -O eclipse-java.tar.gz  http://mirror.ibcp.fr/pub/eclipse//technology/epp/downloads/release/2018-12/R/eclipse-java-2018-12-R-linux-gtk-x86_64.tar.gz --progress=dot
+RUN wget -O eclipse-java.tar.gz  http://mirror.ibcp.fr/pub/eclipse//technology/epp/downloads/release/2019-03/R/eclipse-java-2019-03-R-linux-gtk-x86_64.tar.gz --progress=dot
 RUN tar xf eclipse-*.tar.gz && rm -f eclipse-*.tar.gz 
 RUN echo "-Xms1024m" >> eclipse/eclipse.ini
 RUN echo "-Xmx2048m" >> eclipse/eclipse.ini
 RUN echo "-Dosgi.instance.area.default=/git" >> eclipse/eclipse.ini
 RUN ln -s /eclipse/eclipse /usr/bin/eclipse
 
+#install dbeaver
+RUN wget --progress=bar:noscroll -O dbeaver.tar.gz https://dbeaver.io/files/dbeaver-ce-latest-linux.gtk.x86_64.tar.gz
+RUN tar xf dbeaver.tar.gz && rm -f dbeaver.tar.gz
+RUN ln -s /dbeaver/dbeaver /usr/bin/dbeaver
+
+#install soap-ui
+RUN wget --progress=bar:noscroll -O soapui.tar.gz https://s3.amazonaws.com/downloads.eviware/soapuios/5.4.0/SoapUI-5.4.0-linux-bin.tar.gz
+RUN mkdir soapui
+RUN tar -zxf soapui.tar.gz -C soapui && rm -f soapui.tar.gz
+RUN ln -s /soapui/SoapUI-5.4.0/bin/soapui.sh /usr/bin/soapui
 
 #install OhMyZsh
 ENV TERM=xterm
