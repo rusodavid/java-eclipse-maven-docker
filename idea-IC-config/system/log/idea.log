@@ -1,0 +1,211 @@
+2019-04-20 15:29:25,449 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-04-20 15:29:25,472 [     23]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IC-191.6707.61, 16 Apr 2019 15:39) 
+2019-04-20 15:29:25,472 [     23]   INFO -        #com.intellij.idea.Main - OS: Linux (4.15.0-1035-oem, amd64) 
+2019-04-20 15:29:25,472 [     23]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b44 (JetBrains s.r.o) 
+2019-04-20 15:29:25,472 [     23]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b44 (OpenJDK 64-Bit Server VM) 
+2019-04-20 15:29:25,474 [     25]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -XX:ErrorFile=/home/developer/java_error_in_IDEA_%p.log -XX:HeapDumpPath=/home/developer/java_error_in_IDEA.hprof -Didea.paths.selector=IdeaIC2019.1 -Djb.vmOptionsFile=/idea-IC-191.6707.61/bin/idea64.vmoptions -Didea.platform.prefix=Idea -Didea.jre.check=true 
+2019-04-20 15:29:25,474 [     25]   INFO -        #com.intellij.idea.Main - ext: /idea-IC-191.6707.61/jre64/lib/ext: [sunjce_provider.jar, jfxrt.jar, sunpkcs11.jar, localedata.jar, dnsns.jar, sunec.jar, nashorn.jar, zipfs.jar, jaccess.jar, meta-index, cldrdata.jar] 
+2019-04-20 15:29:25,474 [     25]   INFO -        #com.intellij.idea.Main - charsets: JNU=ANSI_X3.4-1968 file=ANSI_X3.4-1968 
+2019-04-20 15:29:25,483 [     34]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 9 ms 
+2019-04-20 15:29:25,593 [    144]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.0 (IDE-managed HiDPI) 
+2019-04-20 15:29:25,593 [    144]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2019-04-20 15:29:56,406 [  30957]   INFO - m.intellij.ui.mac.touchbar.NST - OS doesn't support touchbar, skip nst loading 
+2019-04-20 15:29:57,993 [  32544]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-04-20 15:29:57,996 [  32547]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-04-20 15:33:58,356 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-04-20 15:33:58,384 [     28]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IC-191.6707.61, 16 Apr 2019 15:39) 
+2019-04-20 15:33:58,384 [     28]   INFO -        #com.intellij.idea.Main - OS: Linux (4.15.0-1035-oem, amd64) 
+2019-04-20 15:33:58,384 [     28]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b44 (JetBrains s.r.o) 
+2019-04-20 15:33:58,384 [     28]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b44 (OpenJDK 64-Bit Server VM) 
+2019-04-20 15:33:58,385 [     29]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -XX:ErrorFile=/home/developer/java_error_in_IDEA_%p.log -XX:HeapDumpPath=/home/developer/java_error_in_IDEA.hprof -Didea.paths.selector=IdeaIC2019.1 -Djb.vmOptionsFile=/idea-IC-191.6707.61/bin/idea64.vmoptions -Didea.platform.prefix=Idea -Didea.jre.check=true 
+2019-04-20 15:33:58,385 [     29]   INFO -        #com.intellij.idea.Main - ext: /idea-IC-191.6707.61/jre64/lib/ext: [sunjce_provider.jar, jfxrt.jar, sunpkcs11.jar, localedata.jar, dnsns.jar, sunec.jar, nashorn.jar, zipfs.jar, jaccess.jar, meta-index, cldrdata.jar] 
+2019-04-20 15:33:58,385 [     29]   INFO -        #com.intellij.idea.Main - charsets: JNU=ANSI_X3.4-1968 file=ANSI_X3.4-1968 
+2019-04-20 15:33:58,395 [     39]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 10 ms 
+2019-04-20 15:33:58,509 [    153]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.0 (IDE-managed HiDPI) 
+2019-04-20 15:33:58,510 [    154]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2019-04-20 15:33:58,883 [    527]   INFO - m.intellij.ui.mac.touchbar.NST - OS doesn't support touchbar, skip nst loading 
+2019-04-20 15:34:04,089 [   5733]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-04-20 15:34:04,090 [   5734]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-04-20 15:35:00,042 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-04-20 15:35:00,065 [     23]   INFO -        #com.intellij.idea.Main - IDE: IntelliJ IDEA (build #IC-191.6707.61, 16 Apr 2019 15:39) 
+2019-04-20 15:35:00,065 [     23]   INFO -        #com.intellij.idea.Main - OS: Linux (4.15.0-1035-oem, amd64) 
+2019-04-20 15:35:00,065 [     23]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_202-release-1483-b44 (JetBrains s.r.o) 
+2019-04-20 15:35:00,065 [     23]   INFO -        #com.intellij.idea.Main - JVM: 25.202-b44 (OpenJDK 64-Bit Server VM) 
+2019-04-20 15:35:00,066 [     24]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -XX:ErrorFile=/home/developer/java_error_in_IDEA_%p.log -XX:HeapDumpPath=/home/developer/java_error_in_IDEA.hprof -Didea.paths.selector=IdeaIC2019.1 -Djb.vmOptionsFile=/idea-IC-191.6707.61/bin/idea64.vmoptions -Didea.platform.prefix=Idea -Didea.jre.check=true 
+2019-04-20 15:35:00,067 [     25]   INFO -        #com.intellij.idea.Main - ext: /idea-IC-191.6707.61/jre64/lib/ext: [sunjce_provider.jar, jfxrt.jar, sunpkcs11.jar, localedata.jar, dnsns.jar, sunec.jar, nashorn.jar, zipfs.jar, jaccess.jar, meta-index, cldrdata.jar] 
+2019-04-20 15:35:00,067 [     25]   INFO -        #com.intellij.idea.Main - charsets: JNU=ANSI_X3.4-1968 file=ANSI_X3.4-1968 
+2019-04-20 15:35:00,077 [     35]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 10 ms 
+2019-04-20 15:35:00,185 [    143]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 1.0 (IDE-managed HiDPI) 
+2019-04-20 15:35:00,185 [    143]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2019-04-20 15:35:00,555 [    513]   INFO - m.intellij.ui.mac.touchbar.NST - OS doesn't support touchbar, skip nst loading 
+2019-04-20 15:35:09,528 [   9486]   INFO - .intellij.idea.IdeaApplication - CPU cores: 12; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@1dcea3b9[Running, parallelism = 11, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@7ecb3ad3 
+2019-04-20 15:35:09,536 [   9494]   INFO - .intellij.idea.IdeaApplication - WM detected: GNOME Shell 
+2019-04-20 15:35:09,724 [   9682]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor duplicates-groovy.xml 
+2019-04-20 15:35:09,725 [   9683]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor duplicates-detection-groovy.xml 
+2019-04-20 15:35:09,819 [   9777]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 198 ms 
+2019-04-20 15:35:09,875 [   9833]   INFO - llij.ide.plugins.PluginManager - 34 plugins initialized in 254 ms 
+2019-04-20 15:35:09,875 [   9833]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Android Support (10.3.3), Ant Support (191.6707.61), Bytecode Viewer (191.6707.61), Copyright (191.6707.61), Coverage (191.6707.61), Eclipse Integration (191.6707.61), EditorConfig (191.6707.61), Git Integration (191.6707.61), GitHub (191.6707.61), Gradle (191.6707.61), Groovy (191.6707.61), I18n for Java (191.6707.61), IDEA CORE (191.6707.61), IntelliJ Configuration Script (191.6707.61), IntelliLang (191.6707.61), JUnit (191.6707.61), Java Bytecode Decompiler (191.6707.61), Java Stream Debugger (191.6707.61), JavaFX (191.6707.61), Kotlin (1.3.21-release-IJ2019.1-3), Maven Integration (191.6707.61), Mercurial Integration (191.6707.61), Plugin DevKit (191.6707.61), Properties Support (191.6707.61), Settings Repository (191.6707.61), Smali Support (191.6707.61), Subversion (191.6707.61), Task Management (191.6707.61), Terminal (191.6707.61), TestNG-J (191.6707.61), UI Designer (191.6707.61), XPathView + XSLT Support (191.6707.61), XSLT-Debugger (191.6707.61), YAML (191.6707.61) 
+2019-04-20 15:35:10,395 [  10353]   INFO - ellij.vfs.persistent.FSRecords - Marking VFS as corrupted: '/home/developer/.IdeaIC2019.1/system/caches/names.dat' does not exist 
+2019-04-20 15:35:10,396 [  10354]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=705 
+2019-04-20 15:35:10,414 [  10372]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /idea-IC-191.6707.61/bin/fsnotifier64 
+2019-04-20 15:35:10,423 [  10381]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2019-04-20 15:35:10,671 [  10629]   INFO - .history.utils.LocalHistoryLog - local history version mismatch (was: 0, expected: 6), rebuilding... 
+2019-04-20 15:35:10,671 [  10629]   INFO - .history.utils.LocalHistoryLog - FS has been rebuild, rebuilding local history... 
+2019-04-20 15:35:10,926 [  10884]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2019-04-20 15:35:10,932 [  10890]   INFO - tellij.ide.SystemHealthMonitor - restored ignored PIPE handler 
+2019-04-20 15:35:10,933 [  10891]   WARN - com.intellij.util.xmlb.Binding - no accessors for interface com.intellij.openapi.extensions.PluginDescriptor 
+2019-04-20 15:35:10,937 [  10895]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2019-04-20 15:35:10,964 [  10922]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2019-04-20 15:35:11,067 [  11025]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:77, number of extensions:47 
+2019-04-20 15:35:11,074 [  11032]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:7 
+2019-04-20 15:35:11,086 [  11044]   INFO - il.indexing.FileBasedIndexImpl - Index FilenameIndex will be built. 
+2019-04-20 15:35:11,099 [  11057]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:22, number of extensions:50 
+2019-04-20 15:35:11,099 [  11057]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:0 
+2019-04-20 15:35:11,122 [  11080]   INFO - il.indexing.FileBasedIndexImpl - Index filetypes will be built. 
+2019-04-20 15:35:11,125 [  11083]   INFO - il.indexing.FileBasedIndexImpl - Index java.auto.module.name will be built. 
+2019-04-20 15:35:11,127 [  11085]   INFO - il.indexing.FileBasedIndexImpl - Index GroovyDslFileIndex will be built. 
+2019-04-20 15:35:11,138 [  11096]   INFO - il.indexing.FileBasedIndexImpl - Index FrameworkDetectionIndex will be built. 
+2019-04-20 15:35:11,172 [  11130]   INFO - il.indexing.FileBasedIndexImpl - Index TodoIndex will be built. 
+2019-04-20 15:35:11,227 [  11185]   INFO - il.indexing.FileBasedIndexImpl - Index IdIndex will be built. 
+2019-04-20 15:35:11,231 [  11189]   INFO - il.indexing.FileBasedIndexImpl - Index Stubs will be built. 
+2019-04-20 15:35:11,320 [  11278]   INFO - ij.psi.stubs.StubUpdatingIndex - Following new file types will be indexed:Groovy,DGM File Type,CLASS,Properties,kotlin_builtins,XML,HTML,JAVA,KJSM,KNM,Kotlin 
+2019-04-20 15:35:11,415 [  11373]   INFO - j.ide.ui.OptionsTopHitProvider - 586 ms spent to cache options in application 
+2019-04-20 15:35:11,415 [  11373]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.OptionsTopHitProvider$Activity took 585 ms 
+2019-04-20 15:35:11,525 [  11483]   INFO - il.indexing.FileBasedIndexImpl - Index Trigram.Index will be built. 
+2019-04-20 15:35:11,529 [  11487]   INFO - il.indexing.FileBasedIndexImpl - Index fileIncludes will be built. 
+2019-04-20 15:35:11,532 [  11490]   INFO - il.indexing.FileBasedIndexImpl - Index DomFileIndex will be built. 
+2019-04-20 15:35:11,533 [  11491]   INFO - il.indexing.FileBasedIndexImpl - Index RelaxSymbolIndex will be built. 
+2019-04-20 15:35:11,536 [  11494]   INFO - il.indexing.FileBasedIndexImpl - Index XmlTagNames will be built. 
+2019-04-20 15:35:11,539 [  11497]   INFO - il.indexing.FileBasedIndexImpl - Index XmlNamespaces will be built. 
+2019-04-20 15:35:11,542 [  11500]   INFO - il.indexing.FileBasedIndexImpl - Index html5.custom.attributes.index will be built. 
+2019-04-20 15:35:11,543 [  11501]   INFO - il.indexing.FileBasedIndexImpl - Index SchemaTypeInheritance will be built. 
+2019-04-20 15:35:11,545 [  11503]   INFO - il.indexing.FileBasedIndexImpl - Index json.file.root.values will be built. 
+2019-04-20 15:35:11,547 [  11505]   INFO - il.indexing.FileBasedIndexImpl - Index ImageFileInfoIndex will be built. 
+2019-04-20 15:35:11,549 [  11507]   INFO - il.indexing.FileBasedIndexImpl - Index bytecodeAnalysis will be built. 
+2019-04-20 15:35:11,552 [  11510]   INFO - il.indexing.FileBasedIndexImpl - Index java.null.method.argument will be built. 
+2019-04-20 15:35:11,554 [  11512]   INFO - il.indexing.FileBasedIndexImpl - Index java.simple.property will be built. 
+2019-04-20 15:35:11,556 [  11514]   INFO - il.indexing.FileBasedIndexImpl - Index java.fun.expression will be built. 
+2019-04-20 15:35:11,565 [  11523]   INFO - il.indexing.FileBasedIndexImpl - Index java.binary.plus.expression will be built. 
+2019-04-20 15:35:11,567 [  11525]   INFO - il.indexing.FileBasedIndexImpl - Index jvm.hierarchy will be built. 
+2019-04-20 15:35:11,569 [  11527]   INFO - il.indexing.FileBasedIndexImpl - Index RefQueueIndex will be built. 
+2019-04-20 15:35:11,571 [  11529]   INFO - il.indexing.FileBasedIndexImpl - Index XsltSymbolIndex will be built. 
+2019-04-20 15:35:11,574 [  11532]   INFO - il.indexing.FileBasedIndexImpl - Index xmlProperties will be built. 
+2019-04-20 15:35:11,576 [  11534]   INFO - il.indexing.FileBasedIndexImpl - Index ant-imports will be built. 
+2019-04-20 15:35:11,579 [  11537]   INFO - il.indexing.FileBasedIndexImpl - Index FormClassIndex will be built. 
+2019-04-20 15:35:11,580 [  11538]   INFO - il.indexing.FileBasedIndexImpl - Index editorconfig.index.name will be built. 
+2019-04-20 15:35:11,582 [  11540]   INFO - il.indexing.FileBasedIndexImpl - Index groovy.trait.fields will be built. 
+2019-04-20 15:35:11,584 [  11542]   INFO - il.indexing.FileBasedIndexImpl - Index groovy.trait.methods will be built. 
+2019-04-20 15:35:11,585 [  11543]   INFO - il.indexing.FileBasedIndexImpl - Index IdeaPluginRegistrationIndex will be built. 
+2019-04-20 15:35:11,588 [  11546]   INFO - il.indexing.FileBasedIndexImpl - Index org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex will be built. 
+2019-04-20 15:35:11,590 [  11548]   INFO - il.indexing.FileBasedIndexImpl - Index org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex will be built. 
+2019-04-20 15:35:11,592 [  11550]   INFO - il.indexing.FileBasedIndexImpl - Index org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex will be built. 
+2019-04-20 15:35:11,593 [  11551]   INFO - il.indexing.FileBasedIndexImpl - Index org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex will be built. 
+2019-04-20 15:35:11,595 [  11553]   INFO - il.indexing.FileBasedIndexImpl - Index org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex will be built. 
+2019-04-20 15:35:11,597 [  11555]   INFO - il.indexing.FileBasedIndexImpl - Index org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex will be built. 
+2019-04-20 15:35:11,599 [  11557]   INFO - il.indexing.FileBasedIndexImpl - Index org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex will be built. 
+2019-04-20 15:35:11,601 [  11559]   INFO - il.indexing.FileBasedIndexImpl - Index org.jetbrains.kotlin.idea.vfilefinder.KotlinPackageSourcesMemberNamesIndex will be built. 
+2019-04-20 15:35:11,604 [  11562]   INFO - il.indexing.FileBasedIndexImpl - Index org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex will be built. 
+2019-04-20 15:35:11,605 [  11563]   INFO - il.indexing.FileBasedIndexImpl - Index org.jetbrains.kotlin.ide.konan.index.KotlinNativeMetaFileIndex will be built. 
+2019-04-20 15:35:11,607 [  11565]   INFO - il.indexing.FileBasedIndexImpl - Index JavaFxControllerClassIndex will be built. 
+2019-04-20 15:35:11,609 [  11567]   INFO - il.indexing.FileBasedIndexImpl - Index javafx.id.name will be built. 
+2019-04-20 15:35:11,610 [  11568]   INFO - il.indexing.FileBasedIndexImpl - Index javafx.custom.component will be built. 
+2019-04-20 15:35:11,611 [  11569]   INFO - il.indexing.FileBasedIndexImpl - Index yaml.keys.name will be built. 
+2019-04-20 15:35:11,616 [  11574]   INFO - pl$FileIndexDataInitialization - Initialization done:542 
+2019-04-20 15:35:11,617 [  11575]   INFO - plication.impl.ApplicationImpl - 83 application components initialized in 1998ms 
+2019-04-20 15:35:11,617 [  11575]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index dom.namespaceKey will be built. 
+2019-04-20 15:35:11,619 [  11577]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index dom.elementClass will be built. 
+2019-04-20 15:35:11,620 [  11578]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index java.module.name will be built. 
+2019-04-20 15:35:11,622 [  11580]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index java.method.parameter.types will be built. 
+2019-04-20 15:35:11,623 [  11581]   INFO - .intellij.idea.IdeaApplication - App initialization took 11898 ms 
+2019-04-20 15:35:11,623 [  11581]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index java.class.extlist will be built. 
+2019-04-20 15:35:11,624 [  11582]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index java.class.shortname will be built. 
+2019-04-20 15:35:11,625 [  11583]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index jvm.static.member.type will be built. 
+2019-04-20 15:35:11,627 [  11585]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index jvm.static.member.name will be built. 
+2019-04-20 15:35:11,629 [  11587]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index java.method.name will be built. 
+2019-04-20 15:35:11,630 [  11588]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index java.class.fqn will be built. 
+2019-04-20 15:35:11,632 [  11590]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index java.field.name will be built. 
+2019-04-20 15:35:11,634 [  11592]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index java.anonymous.baseref will be built. 
+2019-04-20 15:35:11,636 [  11594]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index java.annotations will be built. 
+2019-04-20 15:35:11,639 [  11597]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index properties.index will be built. 
+2019-04-20 15:35:11,640 [  11598]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index gr.class.fqn will be built. 
+2019-04-20 15:35:11,641 [  11599]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index gr.script.fqn will be built. 
+2019-04-20 15:35:11,644 [  11602]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index gr.field.name will be built. 
+2019-04-20 15:35:11,646 [  11604]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index gr.method.name will be built. 
+2019-04-20 15:35:11,647 [  11605]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index gr.annot.method.name will be built. 
+2019-04-20 15:35:11,648 [  11606]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index gr.annot.members will be built. 
+2019-04-20 15:35:11,649 [  11607]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index gr.script.class will be built. 
+2019-04-20 15:35:11,650 [  11608]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index gr.class.super will be built. 
+2019-04-20 15:35:11,652 [  11610]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index gr.anonymous.class will be built. 
+2019-04-20 15:35:11,653 [  11611]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index org.jetbrains.kotlin.idea.stubindex.KotlinExactPackagesIndex will be built. 
+2019-04-20 15:35:11,654 [  11612]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelClassByPackageIndex will be built. 
+2019-04-20 15:35:11,656 [  11614]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionByPackageIndex will be built. 
+2019-04-20 15:35:11,657 [  11615]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyByPackageIndex will be built. 
+2019-04-20 15:35:11,658 [  11616]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasByPackageIndex will be built. 
+2019-04-20 15:35:11,660 [  11618]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index org.jetbrains.kotlin.idea.stubindex.KotlinClassShortNameIndex will be built. 
+2019-04-20 15:35:11,661 [  11619]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index org.jetbrains.kotlin.idea.stubindex.KotlinFullClassNameIndex will be built. 
+2019-04-20 15:35:11,663 [  11621]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index org.jetbrains.kotlin.idea.stubindex.KotlinPropertyShortNameIndex will be built. 
+2019-04-20 15:35:11,664 [  11622]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index org.jetbrains.kotlin.idea.stubindex.KotlinFunctionShortNameIndex will be built. 
+2019-04-20 15:35:11,665 [  11623]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasShortNameIndex will be built. 
+2019-04-20 15:35:11,667 [  11625]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index org.jetbrains.kotlin.idea.stubindex.KotlinSuperClassIndex will be built. 
+2019-04-20 15:35:11,668 [  11626]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionFqnNameIndex will be built. 
+2019-04-20 15:35:11,669 [  11627]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyFqnNameIndex will be built. 
+2019-04-20 15:35:11,671 [  11629]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasFqNameIndex will be built. 
+2019-04-20 15:35:11,672 [  11630]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelExtensionsByReceiverTypeIndex will be built. 
+2019-04-20 15:35:11,673 [  11631]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index org.jetbrains.kotlin.idea.stubindex.KotlinAnnotationsIndex will be built. 
+2019-04-20 15:35:11,719 [  11677]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingFunctionShortNameIndex will be built. 
+2019-04-20 15:35:11,721 [  11679]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index org.jetbrains.kotlin.idea.stubindex.KotlinProbablyNothingPropertyShortNameIndex will be built. 
+2019-04-20 15:35:11,722 [  11680]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index org.jetbrains.kotlin.idea.stubindex.KotlinProbablyContractedFunctionShortNameIndex will be built. 
+2019-04-20 15:35:11,723 [  11681]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeFqNameIndex will be built. 
+2019-04-20 15:35:11,724 [  11682]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index org.jetbrains.kotlin.idea.stubindex.KotlinFilePartClassIndex will be built. 
+2019-04-20 15:35:11,726 [  11684]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeClassByPackageIndex will be built. 
+2019-04-20 15:35:11,727 [  11685]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex will be built. 
+2019-04-20 15:35:11,728 [  11686]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex will be built. 
+2019-04-20 15:35:11,730 [  11688]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex will be built. 
+2019-04-20 15:35:11,731 [  11689]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasByExpansionShortNameIndex will be built. 
+2019-04-20 15:35:11,732 [  11690]   INFO - tellij.psi.stubs.StubIndexImpl - Stub index org.jetbrains.kotlin.idea.stubindex.KotlinOverridableInternalMembersShortNameIndex will be built. 
+2019-04-20 15:35:11,733 [  11691]   INFO - exImpl$StubIndexInitialization - Initialization done:116 
+2019-04-20 15:35:11,776 [  11734]   INFO - penapi.wm.impl.GlobalMenuLinux - disable global-menu integration because some of shared libraries isn't installed: java.lang.UnsatisfiedLinkError: /idea-IC-191.6707.61/bin/libdbm64.so: libdbusmenu-glib.so.4: cannot open shared object file: No such file or directory 
+2019-04-20 15:35:11,911 [  11869]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-04-20 15:35:12,132 [  12090]   INFO - j.ide.ui.OptionsTopHitProvider - 348 ms spent on EDT to cache options in application 
+2019-04-20 15:35:12,189 [  12147]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addons_list-3.xml 
+2019-04-20 15:35:12,534 [  12492]   INFO - dea.updater.SdkComponentSource - File /home/developer/.android/repositories.cfg could not be loaded. 
+2019-04-20 15:35:12,536 [  12494]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android/sys-img2-1.xml 
+2019-04-20 15:35:12,537 [  12495]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear/sys-img2-1.xml 
+2019-04-20 15:35:12,537 [  12495]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addon2-1.xml 
+2019-04-20 15:35:12,537 [  12495]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis/sys-img2-1.xml 
+2019-04-20 15:35:12,537 [  12495]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img2-1.xml 
+2019-04-20 15:35:12,537 [  12495]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/glass/addon2-1.xml 
+2019-04-20 15:35:12,537 [  12495]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-tv/sys-img2-1.xml 
+2019-04-20 15:35:12,537 [  12495]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/extras/intel/addon2-1.xml 
+2019-04-20 15:35:12,538 [  12496]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear-cn/sys-img2-1.xml 
+2019-04-20 15:35:12,537 [  12495]   INFO - dea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2019-04-20 15:35:12,730 [  12688]   INFO - .openapi.application.Preloader - com.intellij.openapi.actionSystem.impl.ActionPreloader took 1313 ms 
+2019-04-20 15:35:13,530 [  13488]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.search.SearchableOptionPreloader took 799 ms 
+2019-04-20 15:35:13,709 [  13667]   INFO - .openapi.application.Preloader - com.intellij.codeInsight.completion.CompletionPreloader took 179 ms 
+2019-04-20 15:35:13,712 [  13670]   INFO - .openapi.application.Preloader - com.intellij.ide.actions.GotoClassPresentationUpdater took 2 ms 
+2019-04-20 15:35:42,491 [  42449]   INFO - ellij.project.impl.ProjectImpl - 20 project components initialized in 115 ms 
+2019-04-20 15:35:48,212 [  48170]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 79 ms 
+2019-04-20 15:36:02,209 [  62167]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 27 ms 
+2019-04-20 15:36:14,311 [  74269]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android/sys-img2-1.xml 
+2019-04-20 15:36:14,312 [  74270]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-wear-cn/sys-img2-1.xml 
+2019-04-20 15:36:14,312 [  74270]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-tv/sys-img2-1.xml 
+2019-04-20 15:36:14,311 [  74269]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-wear/sys-img2-1.xml 
+2019-04-20 15:36:14,312 [  74270]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/google_apis/sys-img2-1.xml 
+2019-04-20 15:36:14,312 [  74270]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img2-1.xml 
+2019-04-20 15:36:14,312 [  74270]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addon2-1.xml 
+2019-04-20 15:36:14,312 [  74270]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/glass/addon2-1.xml 
+2019-04-20 15:36:14,312 [  74270]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/extras/intel/addon2-1.xml 
+2019-04-20 15:36:14,313 [  74271]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2019-04-20 15:36:16,397 [  76355]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 23 ms 
+2019-04-20 15:36:24,268 [  84226]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2019-04-20 15:36:24,269 [  84227]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2019-04-20 15:36:24,269 [  84227]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2019-04-20 15:36:24,282 [  84240]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2019-04-20 15:36:24,284 [  84242]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-04-20 15:36:24,287 [  84245]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 0 auto-detected files
+Elapsed time on auto-detect: 0 ms 
+2019-04-20 15:36:24,295 [  84253]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2019-04-20 15:36:24,295 [  84253]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2019-04-20 15:36:24,296 [  84254]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2019-04-20 15:36:24,297 [  84255]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2019-04-20 15:36:24,298 [  84256]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 

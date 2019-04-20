@@ -1,0 +1,8 @@
+<application>
+  <component name="DimensionService">
+    <location key="ide.config.custom.settings.0.0.1920.1080" x="652" y="398" />
+    <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1920.1080" x="685" y="306" />
+    <size key="ide.config.custom.settings.0.0.1920.1080" width="606" height="139" />
+    <size key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1920.1080" width="539" height="324" />
+  </component>
+</application>
