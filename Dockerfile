@@ -84,26 +84,27 @@ RUN apt-get install -y sudo
 
 # Set up the user 
 ARG UNAME=developer 
-ARG UID=1001 
-ARG GID=1001 
+ARG UID=1001
+ARG GID=1002 
 ARG HOME=/home/${UNAME}
+ARG GROUP_NAME=developers
 
-RUN addgroup --gid ${GID} developer
-RUN useradd -m -u ${UID} -g ${GID} developer && echo "developer:developer" | chpasswd && adduser developer sudo
+RUN addgroup --gid ${GID} ${GROUP_NAME} 
+RUN useradd -m -u ${UID} -g ${GID} ${UNAME} && echo "${UNAME}:${GROUP_NAME}" | chpasswd && adduser ${UNAME} sudo
 
 RUN mkdir /${HOME}/.m2 && \
     mkdir /${HOME}/.m2/repository 
 
 COPY settings.xml /${HOME}/.m2
-RUN chown -R developer:developer ${HOME} 
-RUN chown -R developer:developer ${INTELLIJ_CONFIG} 
-RUN chown -R developer:developer /idea-IC-${INTELLIJ_VERSION}
-RUN chown -R developer:developer /SoapUI-${SOAPUI_VERSION}
+RUN chown -R ${UNAME}:${GROUP_NAME} ${HOME} 
+RUN chown -R ${UNAME}:${GROUP_NAME} ${INTELLIJ_CONFIG} 
+RUN chown -R ${UNAME}:${GROUP_NAME} /idea-IC-${INTELLIJ_VERSION}
+RUN chown -R ${UNAME}:${GROUP_NAME} /SoapUI-${SOAPUI_VERSION}
 
 COPY .dbeaver4 ${HOME}/.dbeaver4
-RUN chown -R developer:developer ${HOME}/.dbeaver4 
+RUN chown -R ${UNAME}:${GROUP_NAME} ${HOME}/.dbeaver4 
 COPY .dbeaver-drivers ${HOME}/.dbeaver-drivers 
-RUN chown -R developer:developer ${HOME}/.dbeaver-drivers 
+RUN chown -R ${UNAME}:${GROUP_NAME} ${HOME}/.dbeaver-drivers 
 
 USER ${UNAME} 
 WORKDIR $HOME
