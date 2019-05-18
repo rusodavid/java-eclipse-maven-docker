@@ -98,6 +98,7 @@ COPY settings.xml /${HOME}/.m2
 RUN chown -R developer:developer ${HOME} 
 RUN chown -R developer:developer ${INTELLIJ_CONFIG} 
 RUN chown -R developer:developer /idea-IC-${INTELLIJ_VERSION}
+RUN chown -R developer:developer /SoapUI-${SOAPUI_VERSION}
 
 COPY .dbeaver4 ${HOME}/.dbeaver4
 RUN chown -R developer:developer ${HOME}/.dbeaver4 
