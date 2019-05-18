@@ -1,2 +1,2 @@
 xhost +LOCAL:
-docker start -i java-eclipse-maven 
+docker start -i sanitas  
