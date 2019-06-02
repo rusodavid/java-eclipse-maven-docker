@@ -1,0 +1,7 @@
+<project>
+  <component name="ExternalCompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="java" target="1.9" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

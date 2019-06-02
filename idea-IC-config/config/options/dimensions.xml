@@ -2,7 +2,25 @@
   <component name="DimensionService">
     <location key="ide.config.custom.settings.0.0.1920.1080" x="652" y="398" />
     <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1920.1080" x="685" y="306" />
+    <location key="FileChooserDialogImpl.0.0.1920.1080" x="735" y="185" />
+    <location key="#Maven_environment.0.0.1920.1080" x="556" y="130" />
+    <location key="NewModule_or_Project.wizard.0.0.1920.1080" x="498" y="61" />
+    <location key="WELCOME_SCREEN.0.0.1920.1080" x="960" y="468" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.1920.1080" x="596" y="380" />
+    <location key="SettingsEditor.0.0.1920.1080" x="489" y="308" />
     <size key="ide.config.custom.settings.0.0.1920.1080" width="606" height="139" />
     <size key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1920.1080" width="539" height="324" />
+    <size key="FileChooserDialogImpl.0.0.1920.1080" width="431" height="563" />
+    <size key="#Maven_environment.0.0.1920.1080" width="800" height="676" />
+    <size key="NewModule_or_Project.wizard.0.0.1920.1080" width="927" height="815" />
+    <size key="SettingsEditor.0.0.1920.1080" width="1072" height="710" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1872" height="344" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1872" height="344" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1872" height="344" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1872" height="344" />
+    <size key="GridCell.Tab.1.left.0.0.1920.1080" width="1872" height="344" />
+    <size key="GridCell.Tab.1.center.0.0.1920.1080" width="1872" height="344" />
+    <size key="GridCell.Tab.1.right.0.0.1920.1080" width="1872" height="344" />
+    <size key="GridCell.Tab.1.bottom.0.0.1920.1080" width="1872" height="344" />
   </component>
 </application>

@@ -1,0 +1,148 @@
+2019-06-02 15:55:56,563 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2019-06-02 15:55:56,563 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /idea-IC-191.6707.61/lib/jps-launcher.jar:/usr/lib/jvm/java-12.0.1-jdk-amd64/lib/tools.jar
+2019-06-02 15:55:56,699 [    136]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 125 ms
+2019-06-02 15:55:56,854 [    291]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /git/java, global options path = /idea-IC-config/config/options
+2019-06-02 15:55:56,991 [    428]   INFO - serialization.JpsProjectLoader - External project config dir is used: /idea-IC-config/system/external_build_system/java.7f51df6e/project
+2019-06-02 15:55:56,996 [    433]   INFO - serialization.JpsProjectLoader - External project config dir is used for modules: /idea-IC-config/system/external_build_system/java.7f51df6e/modules
+2019-06-02 15:55:57,019 [    456]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 165 ms
+2019-06-02 15:55:57,020 [    457]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 6 libraries
+2019-06-02 15:55:57,084 [    521]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2019-06-02 15:55:57,144 [    581]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:true; isMake:false parallel compilation:false
+2019-06-02 15:55:57,145 [    582]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2019-06-02 15:55:57,145 [    582]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2019-06-02 15:55:57,148 [    585]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2019-06-02 15:55:57,148 [    585]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 6ae7866a
+2019-06-02 15:55:57,152 [    589]   INFO - s.index.CompilerReferenceIndex - backward reference index version differ due to: class java.io.FileNotFoundException
+2019-06-02 15:55:57,185 [    622]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 4 ms
+2019-06-02 15:55:57,575 [   1012]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 360 ms
+2019-06-02 15:55:57,579 [   1016]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 365 ms
+2019-06-02 15:55:57,595 [   1032]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: java (tests)
+2019-06-02 15:55:58,162 [   1599]   INFO - s.incremental.java.JavaBuilder - javac 12.0.1 was used to compile [java]
+2019-06-02 15:55:58,479 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2019-06-02 15:55:58,479 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /idea-IC-191.6707.61/lib/jps-launcher.jar:/usr/lib/jvm/java-12.0.1-jdk-amd64/lib/tools.jar
+2019-06-02 15:55:58,625 [    146]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 135 ms
+2019-06-02 15:55:58,720 [    241]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /git/java, global options path = /idea-IC-config/config/options
+2019-06-02 15:55:58,870 [    391]   INFO - serialization.JpsProjectLoader - External project config dir is used: /idea-IC-config/system/external_build_system/java.7f51df6e/project
+2019-06-02 15:55:58,874 [    395]   INFO - serialization.JpsProjectLoader - External project config dir is used for modules: /idea-IC-config/system/external_build_system/java.7f51df6e/modules
+2019-06-02 15:55:58,899 [    420]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 178 ms
+2019-06-02 15:55:58,899 [    420]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 6 libraries
+2019-06-02 15:55:58,965 [    486]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2019-06-02 15:55:59,017 [    538]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 539 ms
+2019-06-02 15:56:28,738 [  30259]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2019-06-02 15:56:28,739 [  30260]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2019-06-02 15:56:28,740 [  30261]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2019-06-02 15:56:28,744 [  30265]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2019-06-02 15:56:28,745 [  30266]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 8f5a2283
+2019-06-02 15:56:28,773 [  30294]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 2 ms
+2019-06-02 15:56:29,162 [  30683]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 366 ms
+2019-06-02 15:56:29,167 [  30688]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 373 ms
+2019-06-02 15:56:29,178 [  30699]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: java (tests)
+2019-06-02 15:56:29,504 [  31025]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2019-06-02 15:56:29,508 [  31029]   INFO - s.incremental.java.JavaBuilder - javac 12.0.1 was used to compile [java]
+2019-06-02 15:56:29,788 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2019-06-02 15:56:29,788 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /idea-IC-191.6707.61/lib/jps-launcher.jar:/usr/lib/jvm/java-12.0.1-jdk-amd64/lib/tools.jar
+2019-06-02 15:56:29,929 [    141]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 130 ms
+2019-06-02 15:56:29,988 [    200]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /git/java, global options path = /idea-IC-config/config/options
+2019-06-02 15:56:30,119 [    331]   INFO - serialization.JpsProjectLoader - External project config dir is used: /idea-IC-config/system/external_build_system/java.7f51df6e/project
+2019-06-02 15:56:30,123 [    335]   INFO - serialization.JpsProjectLoader - External project config dir is used for modules: /idea-IC-config/system/external_build_system/java.7f51df6e/modules
+2019-06-02 15:56:30,148 [    360]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 160 ms
+2019-06-02 15:56:30,148 [    360]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 6 libraries
+2019-06-02 15:56:30,213 [    425]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2019-06-02 15:56:30,265 [    477]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 478 ms
+2019-06-02 15:56:56,774 [  26986]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2019-06-02 15:56:56,776 [  26988]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2019-06-02 15:56:56,776 [  26988]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2019-06-02 15:56:56,780 [  26992]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2019-06-02 15:56:56,781 [  26993]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started d7600461
+2019-06-02 15:56:56,813 [  27025]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 2 ms
+2019-06-02 15:56:57,199 [  27411]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 371 ms
+2019-06-02 15:56:57,203 [  27415]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 376 ms
+2019-06-02 15:56:57,214 [  27426]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: java (tests)
+2019-06-02 15:56:57,659 [  27871]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2019-06-02 15:56:57,662 [  27874]   INFO - s.incremental.java.JavaBuilder - javac 12.0.1 was used to compile [java]
+2019-06-02 15:56:57,945 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2019-06-02 15:56:57,946 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /idea-IC-191.6707.61/lib/jps-launcher.jar:/usr/lib/jvm/java-12.0.1-jdk-amd64/lib/tools.jar
+2019-06-02 15:56:58,085 [    140]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 129 ms
+2019-06-02 15:56:58,144 [    199]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /git/java, global options path = /idea-IC-config/config/options
+2019-06-02 15:56:58,276 [    331]   INFO - serialization.JpsProjectLoader - External project config dir is used: /idea-IC-config/system/external_build_system/java.7f51df6e/project
+2019-06-02 15:56:58,281 [    336]   INFO - serialization.JpsProjectLoader - External project config dir is used for modules: /idea-IC-config/system/external_build_system/java.7f51df6e/modules
+2019-06-02 15:56:58,307 [    362]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 163 ms
+2019-06-02 15:56:58,307 [    362]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 6 libraries
+2019-06-02 15:56:58,373 [    428]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2019-06-02 15:56:58,425 [    480]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 480 ms
+2019-06-02 15:57:26,007 [  28062]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2019-06-02 15:57:26,011 [  28066]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2019-06-02 15:57:26,011 [  28066]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2019-06-02 15:57:26,015 [  28070]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2019-06-02 15:57:26,015 [  28070]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 95d2ee7f
+2019-06-02 15:57:26,043 [  28098]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 2 ms
+2019-06-02 15:57:26,451 [  28506]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 388 ms
+2019-06-02 15:57:26,455 [  28510]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 393 ms
+2019-06-02 15:57:26,466 [  28521]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: java (tests)
+2019-06-02 15:57:26,913 [  28968]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2019-06-02 15:57:26,916 [  28971]   INFO - s.incremental.java.JavaBuilder - javac 12.0.1 was used to compile [java]
+2019-06-02 15:57:27,215 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2019-06-02 15:57:27,215 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /idea-IC-191.6707.61/lib/jps-launcher.jar:/usr/lib/jvm/java-12.0.1-jdk-amd64/lib/tools.jar
+2019-06-02 15:57:27,351 [    136]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 125 ms
+2019-06-02 15:57:27,408 [    193]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /git/java, global options path = /idea-IC-config/config/options
+2019-06-02 15:57:27,538 [    323]   INFO - serialization.JpsProjectLoader - External project config dir is used: /idea-IC-config/system/external_build_system/java.7f51df6e/project
+2019-06-02 15:57:27,543 [    328]   INFO - serialization.JpsProjectLoader - External project config dir is used for modules: /idea-IC-config/system/external_build_system/java.7f51df6e/modules
+2019-06-02 15:57:27,567 [    352]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 159 ms
+2019-06-02 15:57:27,567 [    352]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 6 libraries
+2019-06-02 15:57:27,634 [    419]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2019-06-02 15:57:27,687 [    472]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 473 ms
+2019-06-02 15:58:01,416 [  34201]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2019-06-02 15:58:01,418 [  34203]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2019-06-02 15:58:01,418 [  34203]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2019-06-02 15:58:01,421 [  34206]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2019-06-02 15:58:01,421 [  34206]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started c4c999e9
+2019-06-02 15:58:01,453 [  34238]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 2 ms
+2019-06-02 15:58:01,836 [  34621]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 363 ms
+2019-06-02 15:58:01,840 [  34625]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 369 ms
+2019-06-02 15:58:01,851 [  34636]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: java (tests)
+2019-06-02 15:58:02,303 [  35088]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2019-06-02 15:58:02,306 [  35091]   INFO - s.incremental.java.JavaBuilder - javac 12.0.1 was used to compile [java]
+2019-06-02 15:58:02,593 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2019-06-02 15:58:02,594 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /idea-IC-191.6707.61/lib/jps-launcher.jar:/usr/lib/jvm/java-12.0.1-jdk-amd64/lib/tools.jar
+2019-06-02 15:58:02,732 [    139]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 128 ms
+2019-06-02 15:58:02,791 [    198]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /git/java, global options path = /idea-IC-config/config/options
+2019-06-02 15:58:02,924 [    331]   INFO - serialization.JpsProjectLoader - External project config dir is used: /idea-IC-config/system/external_build_system/java.7f51df6e/project
+2019-06-02 15:58:02,929 [    336]   INFO - serialization.JpsProjectLoader - External project config dir is used for modules: /idea-IC-config/system/external_build_system/java.7f51df6e/modules
+2019-06-02 15:58:02,954 [    361]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 163 ms
+2019-06-02 15:58:02,954 [    361]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 6 libraries
+2019-06-02 15:58:03,020 [    427]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2019-06-02 15:58:03,073 [    480]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 480 ms
+2019-06-02 15:58:47,964 [  45371]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2019-06-02 15:58:47,965 [  45372]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2019-06-02 15:58:47,965 [  45372]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2019-06-02 15:58:47,969 [  45376]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2019-06-02 15:58:47,969 [  45376]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started e6e23166
+2019-06-02 15:58:47,999 [  45406]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 2 ms
+2019-06-02 15:58:48,379 [  45786]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 365 ms
+2019-06-02 15:58:48,384 [  45791]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 371 ms
+2019-06-02 15:58:48,395 [  45802]   INFO - s.incremental.java.JavaBuilder - Compiling 1 java files; module: java (tests)
+2019-06-02 15:58:48,919 [  46326]   INFO - brains.jps.incremental.Builder - Dependency analysis found 0 affected files
+2019-06-02 15:58:48,964 [  46371]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Java' took 519 ms; 1 sources processed (519 ms per file)
+2019-06-02 15:58:48,965 [  46372]   INFO - s.incremental.java.JavaBuilder - javac 12.0.1 was used to compile [java]
+2019-06-02 15:58:49,271 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2019-06-02 15:58:49,272 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /idea-IC-191.6707.61/lib/jps-launcher.jar:/usr/lib/jvm/java-12.0.1-jdk-amd64/lib/tools.jar
+2019-06-02 15:58:49,431 [    160]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 142 ms
+2019-06-02 15:58:49,494 [    223]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /git/java, global options path = /idea-IC-config/config/options
+2019-06-02 15:58:49,631 [    360]   INFO - serialization.JpsProjectLoader - External project config dir is used: /idea-IC-config/system/external_build_system/java.7f51df6e/project
+2019-06-02 15:58:49,636 [    365]   INFO - serialization.JpsProjectLoader - External project config dir is used for modules: /idea-IC-config/system/external_build_system/java.7f51df6e/modules
+2019-06-02 15:58:49,660 [    389]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 166 ms
+2019-06-02 15:58:49,660 [    389]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 6 libraries
+2019-06-02 15:58:49,727 [    456]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2019-06-02 15:58:49,780 [    509]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 510 ms
+2019-06-02 15:59:11,321 [  22050]   INFO - rains.jps.cmdline.BuildSession - No changes found since last build. Exiting.
+2019-06-02 15:59:11,659 [      1]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2019-06-02 15:59:11,659 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /idea-IC-191.6707.61/lib/jps-launcher.jar:/usr/lib/jvm/java-12.0.1-jdk-amd64/lib/tools.jar
+2019-06-02 15:59:11,851 [    193]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 174 ms
+2019-06-02 15:59:11,940 [    282]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /git/java, global options path = /idea-IC-config/config/options
+2019-06-02 15:59:12,120 [    462]   INFO - serialization.JpsProjectLoader - External project config dir is used: /idea-IC-config/system/external_build_system/java.7f51df6e/project
+2019-06-02 15:59:12,125 [    467]   INFO - serialization.JpsProjectLoader - External project config dir is used for modules: /idea-IC-config/system/external_build_system/java.7f51df6e/modules
+2019-06-02 15:59:12,156 [    498]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 216 ms
+2019-06-02 15:59:12,157 [    499]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 1 modules, 6 libraries
+2019-06-02 15:59:12,225 [    567]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=680
+2019-06-02 15:59:12,278 [    620]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 620 ms
+2019-06-02 15:59:53,078 [  41420]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
