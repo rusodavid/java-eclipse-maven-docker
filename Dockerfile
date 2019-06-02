@@ -36,6 +36,24 @@ RUN chown -R root:root /usr/lib/jvm/${JAVA_DIR} && \
  rm ${JAVA_VERSION}*
 
 
+ARG JAVA_LN_VERSION=java-8.0.211-jdk-amd64
+ARG JAVA_VERSION=jdk-8u211-linux-x64
+ARG JAVA_DIR=jdk1.8.0_211
+
+COPY ${JAVA_VERSION}.tar.gz /
+RUN tar -zxvf ${JAVA_VERSION}.tar.gz -C /usr/lib/jvm
+RUN chown -R root:root /usr/lib/jvm/${JAVA_DIR} && \
+ ln -s /usr/lib/jvm/${JAVA_DIR} /usr/lib/jvm/${JAVA_LN_VERSION} && \
+ update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/${JAVA_DIR}/bin/java" 1 && \
+ update-alternatives --install "/usr/bin/javac" "javac" "/usr/lib/jvm/${JAVA_DIR}/bin/javac" 1 && \
+ update-alternatives --set  java "/usr/lib/jvm/${JAVA_DIR}/bin/java" && \
+ update-alternatives --set  javac "/usr/lib/jvm/${JAVA_DIR}/bin/javac" && \
+ rm ${JAVA_VERSION}*
+
+
+
+
+
 #install maven
 RUN wget --progress=dot:mega https://www-us.apache.org/dist/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.tar.gz -P /tmp
 RUN tar xf /tmp/apache-maven-*.tar.gz -C /opt
