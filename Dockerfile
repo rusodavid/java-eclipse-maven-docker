@@ -1,4 +1,4 @@
-FROM ubuntu:18.10
+FROM ubuntu:18.04
 
 LABEL maintainer "David Ruiz <rusodavid@gmail.com>"
 
@@ -53,14 +53,14 @@ RUN chown -R root:root /usr/lib/jvm/${JAVA_DIR} && \
 
 
 #install maven
-RUN wget --progress=dot:mega https://www-us.apache.org/dist/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.tar.gz -P /tmp && \
+RUN wget --progress=dot:mega https://www-us.apache.org/dist/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz -P /tmp && \
  tar xf /tmp/apache-maven-*.tar.gz -C /opt && \
  ln -s /opt/apache-maven-*/bin/mvn /usr/bin/mvn
 COPY maven.sh /etc/profile.d/maven.sh
 RUN chmod +x /etc/profile.d/maven.sh
 
 #install eclipse
-RUN wget -O eclipse-java.tar.gz  http://mirror.ibcp.fr/pub/eclipse//technology/epp/downloads/release/2019-03/R/eclipse-java-2019-03-R-linux-gtk-x86_64.tar.gz --progress=dot:mega && \
+RUN wget -O eclipse-java.tar.gz  http://mirror.ibcp.fr/pub/eclipse//technology/epp/downloads/release/2020-03/R/eclipse-java-2020-03-R-linux-gtk-x86_64.tar.gz --progress=dot:mega && \
  tar xf eclipse-*.tar.gz && rm -f eclipse-*.tar.gz && \ 
  echo "-Xms1024m" >> eclipse/eclipse.ini && \
  echo "-Xmx2048m" >> eclipse/eclipse.ini && \
@@ -68,9 +68,9 @@ RUN wget -O eclipse-java.tar.gz  http://mirror.ibcp.fr/pub/eclipse//technology/e
  ln -s /eclipse/eclipse /usr/bin/eclipse
 
 #install intellij
-ARG INTELLIJ_VERSION=idea-IC-191.6707.61
+ARG INTELLIJ_VERSION=idea-IC-201.7223.91
 ARG INTELLIJ_CONFIG=.IdeaIC
-RUN wget -O intellij.tar.gz  https://download.jetbrains.com/idea/ideaIC-2019.1.1.tar.gz --progress=dot:mega && \
+RUN wget -O intellij.tar.gz  https://download.jetbrains.com/idea/ideaIC-2020.1.1.tar.gz --progress=dot:mega && \
  tar xf intellij.tar.gz && rm -f intellij.tar.gz 
 RUN ln -s /${INTELLIJ_VERSION}/bin/idea.sh /usr/bin/intellij
 
